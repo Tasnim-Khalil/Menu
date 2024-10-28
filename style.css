@@ -1,0 +1,155 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100;
+    overflow: hidden;
+    background-color: #e4e4e4;
+}
+
+.text-center {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #7c1313;
+    font-size: 24px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+    .pp{
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 15px;
+        margin-top: 5%;
+        margin-bottom: 35%;
+        color: #707070;
+    }
+    
+    .content {
+        display: flex;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        grid-gap: 30px;
+        margin-top: 100px;
+    }
+    .content .card {
+     width: 100%; 
+    text-align: center; 
+    background-color: white; 
+    padding: 20px; 
+    display: flex;
+    justify-content: space-between; 
+    border: 1px solid #ccc; 
+   
+    
+    }
+    .content .card img {
+        width: 200px; /* عرض الصورة (نصف العرض) */
+        height: auto; /* تعديل الارتفاع تلقائياً */
+        object-fit: cover; /* تكبير وتصغير الصورة لتناسب الحاوية */
+    
+    }
+    .content .card .info {
+        padding: 20px;
+    }
+    .content .card .info h3 {
+        margin: 0;
+        color: #7c1313;
+    }
+    .content .card .info p {
+        color: #777;
+        margin-bottom: 0;
+        /* font-size: 15px; */
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    }
+  .back{
+    background-color: #c1bfbf;
+    color: #777;
+    white-space: nowrap; /* منع النص من الانتقال للسطر التالي */
+    font-size: 15px; /* حجم الخط */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 100px;
+    margin-left: 23%;
+}
+.backf{
+    background-color: #c1bfbf;
+    color: #777;
+    white-space: nowrap; /* منع النص من الانتقال للسطر التالي */
+    font-size: 15px; /* حجم الخط */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 100px;
+    margin-left: 30%;
+}
+  
+.backk{
+    background-color: #c1bfbf;
+    color: #777;
+    white-space: nowrap; /* منع النص من الانتقال للسطر التالي */
+    font-size: 15px; /* حجم الخط */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 100px;
+    margin-left: 37%;
+}
+
+.backn{
+    background-color: #c1bfbf;
+    color: #777;
+    white-space: nowrap; /* منع النص من الانتقال للسطر التالي */
+    font-size: 15px; /* حجم الخط */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 100px;
+    margin-left: 30%;
+}
+
+
+  
+  table{
+
+    border-collapse: collapse;
+    
+}
+td {
+   
+   padding: 30px;
+
+}
+
+@media screen and (max-width: 768px) {
+    /* تعديلات CSS للشاشات التي أصغر من 768px */
+  }
+
+  .flex-container {
+    display: flex;
+}
+
+.flex-container {
+    flex-direction: row; /* توجيه أفقي */
+    /* أو */
+    flex-direction: column; /* توجيه عمودي */
+}
+
+.flex-container {
+    justify-content: center; /* توسيط العناصر أفقيًا */
+    align-items: center; /* توسيط العناصر عموديًا */
+}
+
+.grid-container {
+    display: grid;
+}
+
+.grid-container {
+    grid-template-columns: auto auto auto; /* تعريف 3 أعمدة بعرض تلقائي */
+}
+
+.grid-item {
+    grid-row: 1 / 2; /* تحديد صفوف العنصر */
+    grid-column: 1 / 2; /* تحديد أعمدة العنصر */
+}
